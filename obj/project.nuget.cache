@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lagFXJsQGbYyn2qwCdbPOEqCiKSdFWJoq1YBU6nC1zRz07i3/Hy1TafspCn3p1UVmsqyz6TT6631mZ0MLxVHoQ==",
+  "success": true,
+  "projectFilePath": "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Saschahi\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
