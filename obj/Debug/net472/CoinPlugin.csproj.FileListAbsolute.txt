@@ -14,7 +14,6 @@ G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\MP3Sharp.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\Newtonsoft.Json.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\NVorbis.dll
-G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\ProjectT_v0.4.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\ReLogic.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\Steamworks.NET.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\TerrariaHooks.dll
@@ -30,3 +29,4 @@ G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net472\CoinPlugin.csproj.CopyComplete
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net472\CoinPlugin.dll
 G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net472\CoinPlugin.pdb
+G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\bin\Debug\net472\ProjectT_v0.5.1.dll
