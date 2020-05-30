@@ -1,1 +1,10 @@
-Project-T Addon: Coingenerator is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Project-T Addon: Coingenerator
+
+This Mod brings the ability to give out Project-T Coins to your Twitch-Viewers through various means!
+
+- Viewers can Earn coins by watching
+- Viewers can get coins by Donating Bits
+- Viewers can get coins by Subscribing
+
+These can be used to buy Stuff from my other addon:
+Project-T Addon: Viewershop
