@@ -39,16 +39,19 @@ namespace CoinPlugin
         public override void onConnected()
         {
             //gets called when the Bot Connects to Twitch
+            CoinGiveoutThread.isConnected = true;
         }
 
         public override void onConnectionError()
         {
             //name says it all
+            CoinGiveoutThread.isConnected = false;
         }
 
         public override void onDisconnected()
         {
             //Gets called when the Bot Disconnects from twitch
+            CoinGiveoutThread.isConnected = false;
         }
 
         public override void onGiftedSubscription(Viewer viewer, string tier)

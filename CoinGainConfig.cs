@@ -26,6 +26,11 @@ namespace CoinPlugin
         [DefaultValue(5)]
         public int MinutesToCoins { get; set; }
 
+        [Label("Send Message on Coinround")]
+        [Tooltip("If true, sends a Message to chat everytime coins are given out")]
+        [DefaultValue(false)]
+        public bool sendMessage { get; set; }
+
         [Label("Bits Party Mode")]
         [Tooltip("If true, every current Viewer will the coins configured below and the donater gets double")]
         [DefaultValue(false)]
@@ -69,6 +74,7 @@ namespace CoinPlugin
         public override void OnLoaded()
         {
             CoinAdder.Config = ModContent.GetInstance<CoinGainConfig>();
+            
         }
         public override void OnChanged()
         {

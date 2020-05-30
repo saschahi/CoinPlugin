@@ -15,20 +15,30 @@ namespace CoinPlugin
 
         }
 
+        public static bool isConnected = false;
+        public static bool sendmessage = false;
+
         public void Initialize()
         {
             DateTime lastgiveout = DateTime.UtcNow;
             wait: Thread.Sleep(10000);
-            if(lastgiveout.AddMinutes(CoinAdder.Config.MinutesToCoins) < DateTime.UtcNow)
+            if (isConnected)
             {
-                lastgiveout = DateTime.UtcNow;
-                foreach (var item in Viewermanager.getCurrentViewers())
+                if(CoinAdder.Config != null)
                 {
-                    Calls.addcoins(item, CoinAdder.Config.CoinsPerMinute);
+                    sendmessage = CoinAdder.Config.sendMessage;
                 }
-                if(true)
+                if (lastgiveout.AddMinutes(CoinAdder.Config.MinutesToCoins) < DateTime.UtcNow)
                 {
-                    Calls.sendmessage("successfully sent " + CoinAdder.Config.CoinsPerMinute + " coins out");
+                    lastgiveout = DateTime.UtcNow;
+                    foreach (var item in Viewermanager.getCurrentViewers())
+                    {
+                        Calls.addcoins(item, CoinAdder.Config.CoinsPerMinute);
+                    }
+                    if (sendmessage)
+                    {
+                        Calls.sendmessage("successfully sent " + CoinAdder.Config.CoinsPerMinute + " coins out");
+                    }
                 }
             }
             if (ThreadWorker.runThread)
