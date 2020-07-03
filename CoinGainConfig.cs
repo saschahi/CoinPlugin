@@ -32,7 +32,7 @@ namespace CoinPlugin
         public bool sendMessage { get; set; }
 
         [Label("Bits Party Mode")]
-        [Tooltip("If true, every current Viewer will the coins configured below and the donater gets double")]
+        [Tooltip("If true, every current Viewer will get the coins configured below and the donater gets double")]
         [DefaultValue(false)]
         public bool globalBits { get; set; }
 
@@ -70,6 +70,13 @@ namespace CoinPlugin
         [Range(0, 9999999)]
         [DefaultValue(0)]
         public int CoinsPerT3 { get; set; }
+
+        [Label("Inactivity-timer")]
+        [Tooltip("After how many minutes of no Stream-interaction should a Viewer not get coins anymore")]
+        [Slider]
+        [Range(10, 120)]
+        [DefaultValue(15)]
+        public int inactivitytimer { get; set; }
 
         public override void OnLoaded()
         {
