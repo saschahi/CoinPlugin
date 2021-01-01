@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj": {}
+    "E:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj": {}
   },
   "projects": {
-    "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj": {
+    "E:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj",
+        "projectUniqueName": "E:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj",
         "projectName": "CoinPlugin",
-        "projectPath": "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj",
+        "projectPath": "E:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\CoinPlugin.csproj",
         "packagesPath": "C:\\Users\\Saschahi\\.nuget\\packages\\",
-        "outputPath": "G:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\obj\\",
+        "outputPath": "E:\\Sascha\\Dokumente\\My Games\\Terraria\\ModLoader\\Mod Sources\\CoinPlugin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

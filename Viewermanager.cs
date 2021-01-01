@@ -1,9 +1,6 @@
 ﻿using ProjectT;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CoinPlugin
 {
@@ -13,10 +10,11 @@ namespace CoinPlugin
 
         public static List<Viewer> getCurrentViewers()
         {
-            if(CoinAdder.Config != null)
+            if (CoinAdder.Config != null)
             {
                 inactivitytimer = CoinAdder.Config.inactivitytimer;
             }
+            
             List<Viewer> viewer = TwitchInput.locallist;
             List<Viewer> mem = new List<Viewer>();
             foreach(var item in viewer)

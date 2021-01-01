@@ -1,7 +1,3 @@
-using ProjectT;
-using System.Collections.Generic;
-using System.Threading;
-using Terraria.GameInput;
 using Terraria.ModLoader;
 
 namespace CoinPlugin
