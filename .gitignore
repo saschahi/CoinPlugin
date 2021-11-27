@@ -22,3 +22,5 @@ bin/Debug/net472/tModLoader.pdb
 bin/Debug/net472/tModLoader.xml
 obj/Debug/net472/CoinPlugin.GeneratedMSBuildEditorConfig.editorconfig
 obj/Debug/net472/CoinPlugin.assets.cache
+obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+obj/Debug/net472/CoinPlugin.AssemblyInfoInputs.cache
