@@ -1,5 +1,5 @@
 displayName = Project-T Addon: Coingenerator
 author = Saschahi
-version = 1.0.4
+version = 1.0.7
 modReferences = ProjectT
 homepage=https://discord.gg/7t93dpx

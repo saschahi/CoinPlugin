@@ -7,17 +7,27 @@ namespace CoinPlugin
         public static CoinGainConfig Config = new CoinGainConfig();
         public static void Bithandler(Viewer viewer, int bits)
         {
-            if (Config.CoinsPerBits > 0)
+            if (bits > 0)
             {
-                double coins = bits * Config.CoinsPerBits;
-                if (Config.globalBits)
+                if (Config.CoinsPerBits > 0)
                 {
-                    foreach (var item in Viewermanager.getCurrentViewers())
+                    double coins = bits * Config.CoinsPerBits;
+                    if (Config.globalBits)
                     {
-                        Calls.addcoins(viewer, coins);
+                        foreach (var item in Viewermanager.getCurrentViewers())
+                        {
+                            Calls.addcoins(item, coins);
+                        }
+                        Calls.sendmessage("Thanks to " + viewer.Name + " for cheering " + bits + " Bits! You receive " + coins * 2 + " Coins and everyone else gets " + coins + " Coins too!");
+
                     }
+                    else
+                    {
+                        //Calls.sendmessage("Thanks to " + viewer.Name + " for donating " + bits + "! You receive " + coins);
+                        Calls.sendmessage("Thank you " + viewer.Name + " for cheering " + bits + " Bits! You have received " + coins + " Coins");
+                    }
+                    Calls.addcoins(viewer, coins);
                 }
-                Calls.addcoins(viewer, coins);
             }
         }
 
@@ -54,6 +64,11 @@ namespace CoinPlugin
                     {
                         Calls.addcoins(item, coins);
                     }
+                    Calls.sendmessage("Thanks to " + viewer.Name + " for subscribing with " + tier + "! You receive " + coins * 2 + " Coins and everyone else gets " + coins + " Coins too!");
+                }
+                else
+                {
+                    Calls.sendmessage("Thanks to " + viewer.Name + " for subscribing with  " + tier + "! You receive " + coins + " Coins!");
                 }
                 Calls.addcoins(viewer, coins);
             }
