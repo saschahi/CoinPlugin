@@ -25,3 +25,7 @@ obj/Debug/net472/CoinPlugin.assets.cache
 obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
 obj/Debug/net472/CoinPlugin.AssemblyInfoInputs.cache
 .vs/CoinPlugin/DesignTimeBuild/.dtbcache.v2
+obj/CoinPlugin.csproj.nuget.dgspec.json
+obj/CoinPlugin.csproj.nuget.g.props
+obj/CoinPlugin.csproj.nuget.g.targets
+obj/Debug/net472/CoinPlugin.csproj.AssemblyReference.cache
