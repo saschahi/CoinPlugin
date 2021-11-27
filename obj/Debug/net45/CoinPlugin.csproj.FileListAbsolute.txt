@@ -1,4 +1,0 @@
-G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net45\CoinPlugin.csprojAssemblyReference.cache
-G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net45\CoinPlugin.csproj.CoreCompileInputs.cache
-G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net45\CoinPlugin.AssemblyInfoInputs.cache
-G:\Sascha\Dokumente\My Games\Terraria\ModLoader\Mod Sources\CoinPlugin\obj\Debug\net45\CoinPlugin.AssemblyInfo.cs
